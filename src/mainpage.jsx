@@ -239,8 +239,8 @@ const Mainpage = () => {
 					</Grid>
 					<Grid item xs={1}></Grid>
 
-					<Grid item xs={1} md={2} lg={3}>
-						<Grid container item xs={10} md={9} lg={8}>
+					{/* <Grid item xs={1} md={2} lg={3}>
+						<Grid container item xs={10} md={9} lg={8}> */}
 							<div className='d-flex flex-row justify-content-center' style={{ width: "100%" }}>
 								<form ref={form} onSubmit={submit}>
 									<label for="name" className='form-label'>Name</label>
@@ -252,8 +252,8 @@ const Mainpage = () => {
 									<input className='btn btn-primary mt-3 mx-3' type="submit" value="Send" />
 								</form>
 							</div>
-						</Grid>
-					</Grid>
+						{/* </Grid>
+					</Grid> */}
 					<Grid xs={1}></Grid>
 
 					<Grid item xs={1} md={2} lg={3}></Grid>

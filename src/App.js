@@ -8,7 +8,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import CreateVideo from "./createVideo"
 import Mainpage from './mainpage';
 
 
@@ -18,12 +17,9 @@ function App() {
   return (
     <div>
       <Router>
-        <div className="container">
-          <Routes>
-          <Route path="/createvideo" element={<CreateVideo/>} />
-          <Route path="/" element={<Mainpage/>} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Mainpage />} />
+        </Routes>
 
       </Router>
     </div>
